@@ -4,7 +4,6 @@ import tkinter as tk
 
 # Be sure to import our other modules
 # so we can have access to them
-import phonebook_gui
 import phonebook_func
 
 

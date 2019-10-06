@@ -8,10 +8,12 @@ import time
 
 
 def select_source(self):
+    self.txt_source.delete(0,END)
     var = filedialog.askdirectory()
     self.txt_source.insert(0, var)
 
 def select_destination(self):
+    self.txt_destination.delete(0,END)
     var = filedialog.askdirectory()
     self.txt_destination.insert(0, var)
 
